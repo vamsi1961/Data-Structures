@@ -83,7 +83,7 @@ Linear time to add/remove at any arbitrary location
 
 ## Queues
 
-    **Using Linked List**
+**Using Linked List**
 
     First Come First Serve
     First In First Out
@@ -100,7 +100,7 @@ Linear time to add/remove at any arbitrary location
 
     Queue Implementation 
 
-        
+
 
 
 

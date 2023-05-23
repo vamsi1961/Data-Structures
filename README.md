@@ -83,6 +83,8 @@ Linear time to add/remove at any arbitrary location
 
 ## Queues
 
+    **Using Linked List**
+
     First Come First Serve
     First In First Out
 
@@ -93,7 +95,12 @@ Linear time to add/remove at any arbitrary location
 
     Implementing through Linked List
 
-        Enque() :   New element gets added at the back
+        Enque() :   New element gets added at the back  =>  List.PushBack
+        Deque() :   It removes elements from the front  =>  List.TopFront and List.PopFront
+
+    Queue Implementation 
+
+        
 
 
 

@@ -43,7 +43,6 @@ Boolean Empty()     empty list?             O(1)
 AddBefore(Node,Key) adds key before node    O(n)
 AddAfter(Node,Key)  adds key after node     O(1)
 
-    
 
 ## Douly Linked List
 
@@ -199,21 +198,20 @@ if tree = nik:
 Queue q
 q.Enqueue(tree)
 
-Markup :  `code()`
 
 while not q.Empty():
 
-    node <- q.Dequeue()
-    print(node)
-    if node.left != nil:
-        q.Enqueue(node.left)
+node <- q.Dequeue()
+print(node)
+if node.left != nil:
+q.Enqueue(node.left)
 
-    if node.right != nil:
-        q.Enqueue(node.right)
+if node.right != nil:
+q.Enqueue(node.right)
 
-Markup : ```javascript
-         ```
 Print nodes and their left and right children and....
+
+
 
 
 
